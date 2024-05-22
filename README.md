@@ -10,7 +10,6 @@ This project involves the design and testing of a Boost Converter that steps up 
 - [Features](#features)
 - [Designed Parameters](#designed-parameters)
 - [Working Principle](#working-principle)
-- [Formulas](#formulas)
 - [Circuit Diagram](#circuit-diagram)
   
 
@@ -44,12 +43,6 @@ Boost converters are essential components in power electronics for increasing th
 
 A boost converter operates by storing energy in an inductor during the on-time of a switching element (typically a MOSFET) and releasing that energy to the output during the off-time. This process effectively increases the voltage level at the output.
 
-## Formulas
-
-- **Output Voltage**:   $$ V_o = \frac{V_s}{1 - D} \)
-- **Minimum Inductance for Continuous Current**:   $$ \( L_{min} = \frac{D (1 - D)^2}{2f} \)
-- **Inductor Current**:   $$ \( I_L = \frac{V_s}{R (1 - D)^2} \)
-- **Minimum Capacitance to Limit V\(_0\) Ripple to 1%**:   $$ \( C_{min} = \frac{D}{R (\Delta V_0 / V_0) f} \)
 
 ## Circuit Diagram
 ![image](https://github.com/Vishnu45t86/Boost-converter/assets/109750872/0d2074bf-9605-4f68-b621-87b1c96e843f)
